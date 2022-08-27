@@ -1,0 +1,38 @@
+h1{
+   color:brown; 
+}
+p{
+    font-size: 50pt;
+    color:crimson;
+}
+
+#primera-noticia{
+    color:green;
+    font-size: 12pt;
+}
+#primera-noticia{
+    color:darkmagenta;
+}
+
+.encabezado{
+    
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+* .warning{
+    color: red;
+}
+
+.autor, .fecha, .ubicacion, h1, #segunda-noticia{
+    text-decoration: underline;
+}
+
+
+/* Nota Para los selectores se puede utilizar
+id="selector" y este se utiliza en css con un # + el nombre
+selectror.
+class="selector-1" y este se utiliza en css con un . + el nombre
+del selector
+selector universal se utiliza para darle estilo a todos los elementos
+de mi html y se representa con *. */
